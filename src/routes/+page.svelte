@@ -5,7 +5,7 @@
 	let textfield = '';
 	let username = '';
 
-	let messages : {from: string, message:string , time: string}[] = [];
+	let messages: {from: string, message:string , time: string}[] = [];
 
 	onMount(() => {
 		io.on('message', (message) => {

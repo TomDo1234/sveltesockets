@@ -1,5 +1,8 @@
 import { Server } from 'socket.io';
 
+/**
+ * @param {Partial<import("socket.io").ServerOptions> | undefined} server
+ */
 export default function injectSocketIO(server) {
     const io = new Server(server);
 

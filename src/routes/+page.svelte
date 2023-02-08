@@ -12,7 +12,6 @@
 			messages = [...messages, message];
 		});
 		io.on('name', (name) => {
-            console.log(123);
 			username = name;
 		});
 	});
